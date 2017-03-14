@@ -1,0 +1,49 @@
+.App {
+  text-align: center;
+  
+}
+
+
+.App-logo {
+  margin-right: 90%;
+  height: 50px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 80px;
+
+  color: white;
+}
+.App-slider {
+  background-color: #222;
+  height: 300px;
+
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.carousel-inner > .item > a > img, .carousel-inner > .item > img, .img-responsive, .thumbnail a > img, .thumbnail > img {
+     display: block;
+     height: 500px;
+}
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
+}
+
+body { padding-bottom: 70px; }
